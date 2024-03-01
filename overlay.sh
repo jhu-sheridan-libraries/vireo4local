@@ -16,4 +16,5 @@ cd ${LOCAL_DIR}
 git pull
 
 #Now copy the updated files into our working project
-cp -r ${LOCAL_DIR} ${WORK_DIR}
+cp ${LOCAL_DIR}/.env ${WORK_DIR}
+cp ${LOCAL_DIR}/src/main/resources/* ${WORK_DIR}/src/main/resources
