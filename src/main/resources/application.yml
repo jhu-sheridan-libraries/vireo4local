@@ -179,11 +179,11 @@ auth:
 shib:
   keys: netid,uin,lastName,firstName,email
   subject: email
-  netid: edupersonprincipalnameunscoped
-  uin: tamuuin
-  lastName: tdl-sn
-  firstName: tdl-givenname
-  email: tdl-mail
+  netid: eppn
+  uin: uin
+  lastName: sn
+  firstName: givenName
+  email: mail
 
 
 # WRO Configuration
