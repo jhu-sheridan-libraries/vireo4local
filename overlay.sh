@@ -8,8 +8,8 @@
 # and check out the appropriate branch. Then we make adjustments in this project,
 # and overlay these adjustments to the working copy of the Vireo code
 
-LOCAL_DIR = /opt/vireo/repos/vireo4local/
-WORK_DIR = /opt/vireo/work/v4.2.6/Vireo/
+LOCAL_DIR=/opt/vireo/repos/vireo4local/
+WORK_DIR=/opt/vireo/work/v4.2.6/Vireo/
 
 # Copy the updated files into our working project
 cp ${LOCAL_DIR}/.env ${WORK_DIR}
