@@ -11,10 +11,6 @@
 LOCAL_DIR = /opt/vireo/repos/vireo4local/
 WORK_DIR = /opt/vireo/work/v4.2.6/Vireo/
 
-# Pull in any changes from our local repository
-cd ${LOCAL_DIR}
-git pull
-
-# Now copy the updated files into our working project
+# Copy the updated files into our working project
 cp ${LOCAL_DIR}/.env ${WORK_DIR}
 cp ${LOCAL_DIR}/src/main/resources/* ${WORK_DIR}/src/main/resources
