@@ -138,7 +138,7 @@ app:
 
   security:
     # edu.tamu.weaver.auth.service.CryptoService
-    secret: verysecretsecret
+    secret: 9QRMirNPjAXA9p1Ljn9EKYzUQldajESZqA6ypMWyZWD8I2dMKbRFGYZpFgnIAj1T
     # edu.tamu.weaver.filter.CorsFilter
     allow-access: https://vireo-dev.library.jhu.edu:${server.port}
 
