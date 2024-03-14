@@ -112,7 +112,7 @@ info:
 
 
 app:
-  url: http://vireo02.mse.jhu.edu:${server.port}
+  url: http://vireo-dev.library.jhu.edu:${server.port}
 
   # value generated from property assets.uri
   # either defined in pom.xml or via package argument
@@ -140,7 +140,7 @@ app:
     # edu.tamu.weaver.auth.service.CryptoService
     secret: verysecretsecret
     # edu.tamu.weaver.filter.CorsFilter
-    allow-access: http://vireo02.mse.jhu.edu:${server.port}
+    allow-access: http://vireo-dev.library.jhu.edu:${server.port}
 
   # edu.tamu.weaver.email.config.WeaverEmailConfig
   email:
