@@ -167,7 +167,7 @@ app:
 # edu.tamu.weaver.token.service.TokenService
 auth:
   security.jwt:
-    secret: 9QRMirNPjAXA9p1Ljn9EKYzUQldajESZqA6ypMWyZWD8I2dMKbRFGYZpFgnIAj1T
+    secret: 9QRMirNPjAXA9p1Ljn9EKYzUQldajESZ
     issuer: vireo
     duration: 5
 
