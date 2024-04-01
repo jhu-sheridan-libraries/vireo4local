@@ -134,7 +134,7 @@ app:
 
   # edu.tamu.weaver.auth.service.UserCredentialsService
   #authority.admins: admin@tdl.org,aggieJack@tamu.edu
-  authority.admins: jrm@jhu.edu
+  authority.admins: jrm@jhu.edu,aggieJack@tamu.edu
 
   security:
     # edu.tamu.weaver.auth.service.CryptoService
