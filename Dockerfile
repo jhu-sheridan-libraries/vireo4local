@@ -1,7 +1,7 @@
 # Build arguments.
 ARG USER_ID=3001
 ARG USER_NAME=vireo
-ARG HOME_DIR=/$USER_NAME
+ARG HOME_DIR=/home/$USER_NAME
 ARG SOURCE_DIR=$HOME_DIR/source
 ARG APP_PATH=/opt/vireo
 ARG NODE_ENV=production
