@@ -14,4 +14,5 @@ WORK_DIR=/opt/vireo/work/v4.2.6/Vireo/
 # Copy the updated files into our working project
 cp ${LOCAL_DIR}/.env ${WORK_DIR}
 cp ${LOCAL_DIR}/docker-compose.yml ${WORK_DIR}
+cp ${LOCAL_DIR}/Dockerfile ${WORK_DIR}
 cp ${LOCAL_DIR}/src/main/resources/* ${WORK_DIR}/src/main/resources
