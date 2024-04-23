@@ -34,16 +34,16 @@ config = {
       from: './node_modules/tinymce/skins',
       to: './skins'
     },
- /*   {
+    {
       from: './build/appConfig.js.template',
       to: './appConfig.js',
       transform(content) {
         return content
           .toString()
-          .replace('${AUTH_SERVICE_URL}', 'window.location.protocol + \'//\' + window.location.host + window.location.base + \'/auth\'')
+       //   .replace('${AUTH_SERVICE_URL}', 'window.location.protocol + \'//\' + window.location.host + window.location.base + \'/auth\'')
           .replace('${STOMP_DEBUG}', 'false');
       },
-    }, */
+    },
   ],
   entry: {
     app: [
