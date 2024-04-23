@@ -40,7 +40,7 @@ config = {
       transform(content) {
         return content
           .toString()
-          .replace('${AUTH_SERVICE_URL}', 'https://vireo-dev.library.jhu.edu/secure')
+          .replace('${AUTH_SERVICE_URL}', 'http://localhost:9000/auth')
           .replace('${STOMP_DEBUG}', 'false');
       },
     },
