@@ -40,7 +40,7 @@ config = {
       transform(content) {
         return content
           .toString()
-          .replace('${AUTH_SERVICE_URL}', 'http://localhost:9000/auth')
+        //  .replace('${AUTH_SERVICE_URL}', 'https://localhost:9000/auth')
           .replace('${STOMP_DEBUG}', 'false');
       },
     },
