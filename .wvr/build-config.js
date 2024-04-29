@@ -41,7 +41,7 @@ config = {
         return content
           .toString()
   //        .replace('${AUTH_SERVICE_URL}',  'window.location.protocol + \'//\' + window.location.host + window.location.base + \'/auth\'')
-          .replace('${AUTH_SERVICE_URL}', '\'http://vireo-dev.library.jhu.edu/login/ShibbolethAuthentication\'')
+          .replace('${AUTH_SERVICE_URL}', '\'http://vireo-dev.library.jhu.edu/secure\'')
           .replace('${STOMP_DEBUG}', 'false');
       },
     },
