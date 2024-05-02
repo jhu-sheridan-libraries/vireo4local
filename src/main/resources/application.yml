@@ -182,7 +182,7 @@ shib:
   netid: eppn
   uin: uin
   lastName: sn
-  firstName: givenName
+  firstName: givenname
   email: mail
 
 
