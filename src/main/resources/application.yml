@@ -181,8 +181,8 @@ shib:
   subject: email
   netid: eppn
   uin: uin
-  lastName: sn
-  firstName: givenname
+  lastName: jhepreferredlastname
+  firstName: jhegivennamepreferred
   email: mail
 
 
