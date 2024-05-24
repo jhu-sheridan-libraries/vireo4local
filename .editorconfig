@@ -15,5 +15,3 @@ indent_size = 2
 
 [*.{js,java,md}]
 indent_size = 4
-
-valid_elements: "a[href|target],"
