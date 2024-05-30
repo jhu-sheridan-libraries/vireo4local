@@ -17,4 +17,4 @@ cp ${LOCAL_DIR}/.wvr/build-config.js ${WORK_DIR}/.wvr
 cp ${LOCAL_DIR}/build/appConfig.js.template ${WORK_DIR}/build
 cp ${LOCAL_DIR}/docker-compose.yml ${WORK_DIR}
 cp ${LOCAL_DIR}/Dockerfile ${WORK_DIR}
-cp -t ${LOCAL_DIR}/src/* ${WORK_DIR}/src/
+cp -rt ${LOCAL_DIR}/src/* ${WORK_DIR}/src/
