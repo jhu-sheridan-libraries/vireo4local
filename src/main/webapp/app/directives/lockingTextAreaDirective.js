@@ -64,7 +64,6 @@ vireo.directive("lockingtextarea", function ($timeout) {
                 image_advtab: true,
                 height: "100%",
                 width: "100%",
-                valid_elements: "h1,h2,h3,a[href|style|target],strong/b",
             };
 
             $scope.nonWysiwygTyping = function ($event) {
