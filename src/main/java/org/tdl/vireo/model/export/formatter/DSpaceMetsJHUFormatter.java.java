@@ -14,7 +14,7 @@ import org.thymeleaf.context.Context;
 @Entity
 public class DSpaceMetsJHUFormatter extends DSpaceMetsFormatter {
 
-    public DSpaceMetsFormatter() {
+    public DSpaceMetsJHUFormatter() {
         super();
         setName("DSpaceMETSJHU");
         HashMap<String, String> templates = new HashMap<String, String>();
