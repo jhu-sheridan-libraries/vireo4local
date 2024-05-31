@@ -42,6 +42,7 @@ import org.tdl.vireo.model.SubmissionStatus;
 import org.tdl.vireo.model.VocabularyWord;
 import org.tdl.vireo.model.WorkflowStep;
 import org.tdl.vireo.model.formatter.DSpaceMetsFormatter;
+import org.tdl.vireo.model.formatter.DSpaceMetsJHUFormatter;
 import org.tdl.vireo.model.formatter.DSpaceSimpleFormatter;
 import org.tdl.vireo.model.formatter.ExcelFormatter;
 import org.tdl.vireo.model.formatter.Marc21Formatter;
