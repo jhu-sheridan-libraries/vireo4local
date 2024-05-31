@@ -815,7 +815,7 @@ public class SystemDataLoader {
 
     private void loadPackagers() {
         if (abstractPackagerRepo.findByName("DSpaceMETS-JHU") == null) {
-            abstractPackagerRepo.createDSpaceMetsPackager("DSpaceMETS", new DSpaceMetsJHUFormatter());
+            abstractPackagerRepo.createDSpaceMetsPackager("DSpaceMETS-JHU", new DSpaceMetsJHUFormatter());
         }
         if (abstractPackagerRepo.findByName("DSpaceMETS") == null) {
             abstractPackagerRepo.createDSpaceMetsPackager("DSpaceMETS", new DSpaceMetsFormatter());
