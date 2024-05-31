@@ -16,7 +16,7 @@ public class DSpaceMetsJHUFormatter extends DSpaceMetsFormatter {
 
     public DSpaceMetsJHUFormatter() {
         super();
-        setName("DSpaceMETSJHU");
+        setName("DSpaceMETS-JHU");
         HashMap<String, String> templates = new HashMap<String, String>();
         templates.put(DEFAULT_TEMPLATE_KEY, "dspace_mets_jhu");
         setTemplates(templates);
