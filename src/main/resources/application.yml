@@ -78,7 +78,7 @@ spring:
 
     thymeleaf:
       cache: false
-      mode: XML
+      mode: HTML
 
   main:
 
