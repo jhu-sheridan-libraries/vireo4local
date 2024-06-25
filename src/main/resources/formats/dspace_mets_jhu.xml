@@ -73,7 +73,7 @@
           <!-- thesis.degree.grantor = College -->
           <dim:field
             th:if="${ DEGREE_COLLEGE != null }"
-            mdschema="thesis" element="degree" qualifier="grantor"
+            mdschema="dc" element="degree" qualifier="grantor"
             th:text="${DEGREE_COLLEGE}">
           </dim:field>
 
