@@ -30,7 +30,7 @@ public class DSpaceMetsJHUFormatter extends AbstractFormatter {
         // the methods from the submission helper utility would have to be brought
         // the exporter and extract predicate values from the mapping to define
         // the value to be templated with the given key
-        for (DSpaceMETSKey key : DSpaceMETSKey.values()) {
+        for (DSpaceMETSJHUKey key : DSpaceMETSJHUKey.values()) {
             switch (key) {
                 case AGENT:
                     context.setVariable(key.name(), "Vireo DSpace METS JHU packager");
