@@ -1,6 +1,6 @@
 package org.tdl.vireo.model.export.enums;
 
-public enum DSpaceMETSKey {
+public enum DSpaceMETSJHUKey {
     AGENT,
     STUDENT_SHORT_NAME,
     STUDENT_FULL_NAME_WITH_BIRTH_YEAR,

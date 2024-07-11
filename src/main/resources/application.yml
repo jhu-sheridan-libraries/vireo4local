@@ -93,10 +93,10 @@ spring:
 logging:
   level:
     org:
-      tdl: DEBUG
-      hibernate: DEBUG
+      tdl: INFO
+      hibernate: INFO
       springframework: INFO
-      edu.tamu: DEBUG
+      edu.tamu: INFO
       ro.isdc.wro: INFO
   file:
     name: logs/vireo.log
