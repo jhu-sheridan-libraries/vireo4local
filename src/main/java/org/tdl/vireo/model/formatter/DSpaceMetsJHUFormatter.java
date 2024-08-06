@@ -84,6 +84,9 @@ public class DSpaceMetsJHUFormatter extends AbstractFormatter {
                 case EMBARGO_LIFT_DATE:
                     context.setVariable(key.name(), submissionHelperUtility.getEmbargoLiftDate());
                     break;
+                case DEGREE_COLLEGE:
+                    context.setVariableName(key.name(), submmissionHelperUtility.getDegreeCollege());
+                    break;
                 default:
                     break;
             }
